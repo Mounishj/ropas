@@ -52,7 +52,7 @@ function game () {
      } else if (playerScore < computerScore) {
         console.log("Computer wins the game");
      } else if (playerScore = computerScore){
-        console.log("It's a tie match");
+        console.log("It's a tie match")
      }
 }
 game();
