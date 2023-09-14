@@ -1,7 +1,7 @@
 console.log("Testing the link of the script file");
 
 function getComputerChoice () {
-    let randomNumber = Math.floor(Math.random()*3 );
+    let randomNumber = Math.floor(Math.random()*3 +1);
     if (randomNumber === 1){
         return "rock"
     } else if (randomNumber === 2) {
@@ -41,10 +41,10 @@ function game () {
         console.log(`Round ${i} : ${result}`);
         if (result.startsWith(`Player`)) {
             playerScore++;
-            console.log(playerScore);
+            //console.log(playerScore);
         } else if (result.startsWith(`Computer`)) {
             computerScore++;
-            console.log(computerScore);
+            //console.log(computerScore);
         } 
      }
      if (playerScore > computerScore){
